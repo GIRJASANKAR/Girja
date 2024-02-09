@@ -1,0 +1,17 @@
+<div class="p-4">custom-validator works!</div>
+
+<div class="p-4">
+  <form class="flex flex-col mx-auto gap-10 max-w-md" [formGroup]="loginForm" >
+    <div class="w-full">
+      <span> USERNAME : </span>
+      <input class="border w-full p-2 rounded-sm" type="text" formControlName="username" />
+    </div>
+    <div class="w-full">
+      <span> Password : </span>
+      <input class="border w-full p-2 rounded-sm" type="password" formControlName="password" />
+    </div>
+    <button class="bg-lime-400 px-3 py-2 rounded-md" (click)="submitForm()">
+      Submit ME
+    </button>
+  </form>
+</div>
