@@ -24,10 +24,9 @@ export class CustomValidatorComponent {
       password: new FormControl('initialPassword', [Validators.required]),
     });
   }
-
+// validator function is woking fine
 
   submitForm(){
-    console.log(this.loginForm.value);
     this.loginForm.controls['username'].setValue("");
     this.loginForm.controls['password'].setValue("");
   }
