@@ -28,6 +28,7 @@ export class CustomValidatorComponent {
 // needs to add the directive
   submitForm(){
     
+    
     this.loginForm.controls['username'].setValue("");
     this.loginForm.controls['password'].setValue("");
   }
