@@ -30,4 +30,5 @@ export class CustomValidatorComponent {
     this.loginForm.controls['username'].setValue("");
     this.loginForm.controls['password'].setValue("");
   }
+  
 }
