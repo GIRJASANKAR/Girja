@@ -9,7 +9,8 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./holy-grail.component.css']
 })
 export class HolyGrailComponent {
-
+// created these layouts and ui 
+// read about reactive forms module 
 
   
 }
