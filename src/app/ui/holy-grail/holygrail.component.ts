@@ -11,6 +11,6 @@ import { CommonModule } from '@angular/common';
 export class HolyGrailComponent {
 // created these layouts and ui 
 // read about reactive forms module 
-
-  
+//  ngNoValidate, ngStatusForm
+//  FormGroup, FormGroupName, FormControlName , FormArray
 }
